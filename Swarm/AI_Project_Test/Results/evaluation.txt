@@ -1,0 +1,8 @@
+Episode 1, Steps: 100000, Cleaned: 93.10%, Total Reward: -57837.00
+Episode 2, Steps: 100000, Cleaned: 81.25%, Total Reward: -56496.00
+Episode 3, Steps: 100000, Cleaned: 68.75%, Total Reward: -55923.00
+Episode 4, Steps: 100000, Cleaned: 71.79%, Total Reward: -55521.00
+Episode 5, Steps: 100000, Cleaned: 71.88%, Total Reward: -55573.50
+Episode 6, Steps: 100000, Cleaned: 78.38%, Total Reward: -55479.00
+Episode 7, Steps: 100000, Cleaned: 73.68%, Total Reward: -55738.50
+Episode 8, Steps: 100000, Cleaned: 69.23%, Total Reward: -55971.00

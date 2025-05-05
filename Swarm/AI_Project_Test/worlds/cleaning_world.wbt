@@ -1,0 +1,71 @@
+#VRML_SIM R2025a utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/floors/protos/RectangleArena.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/robots/gctronic/e-puck/protos/E-puck.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/robots/gctronic/e-puck/protos/E-puckGroundSensors.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  orientation -0.579265174425394 0.5792651581272694 0.5735012940505954 2.100183093120574
+  position -0.017048229835830226 0.05698277551256578 4.378224580996585
+}
+Background {
+  skyColor [
+    0.4 0.7 1
+  ]
+}
+DirectionalLight {
+  ambientIntensity 1
+  direction 0.1 -0.5 0.3
+}
+RectangleArena {
+  floorSize 2 2
+  floorTileSize 0.4 0.4
+  floorAppearance PBRAppearance {
+    emissiveColor 1 1 1
+  }
+}
+DEF ENV_SUPERVISOR Robot {
+  children [
+    Receiver {
+      channel 1
+    }
+    Emitter {
+      channel 1
+    }
+  ]
+  name "ENV_SUPERVISOR"
+  controller "env_supervisor"
+  supervisor TRUE
+}
+DEF CLEANING_ROBOT_1 E-puck {
+  translation 0 0.3 0
+  name "CLEANING_ROBOT_1"
+  controller "cleaning_robot"
+  turretSlot [
+    Compass {
+    }
+    GPS {
+    }
+  ]
+  groundSensorsSlot [
+    E-puckGroundSensors {
+    }
+  ]
+}
+DEF CLEANING_ROBOT_2 E-puck {
+  translation 0.21 0 0.02
+  name "CLEANING_ROBOT_2"
+  controller "cleaning_robot"
+  turretSlot [
+    Compass {
+    }
+    GPS {
+    }
+  ]
+  groundSensorsSlot [
+    E-puckGroundSensors {
+    }
+  ]
+}
