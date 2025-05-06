@@ -5,7 +5,7 @@ Title: **Single-Agent to Swarm: Proximal Policy Optimization (PPO)-Based Reinfor
 
 **Our project requires Webots software and python with the libraries used in the code installed.**
 
-**To run you can create a new project. Add the world to the world file. And copy the controller folder content into the controller folder. Kindly note that it will not work with just the python file you need to copy the folder containing the python file.**
+**To run you can create a new project in webots. Add the world to the world file. And copy the "controllers" folder contents into the "controllers folder". Kindly note that it will not work with just copy the python file you need to copy the folder containing the python file.**
 
 **Single Agent Code (Single_Agent Folder)**
 - The subfolder named "Webots_1_Agent" is the code used for simulating the reinforcement learning using PPO for a single e-puck robot on webots.
