@@ -1,6 +1,8 @@
 # AdvAI_Project
 Title: **Single-Agent to Swarm: Proximal Policy Optimization (PPO)-Based Reinforcement Learning for Autonomous Tile Cleaning**
 
+By: Mohamed Elmohandes, Abdelrahman Ahmed, and Muhammed Noshin
+
 **Our project requires Webots software and python with the libraries used in the code installed.**
 
 **Single Agent Code (Single_Agent Folder)**
