@@ -17,4 +17,5 @@ The main difference is that AIMo has mostly the same training code, with the add
 The other folder contains code that does not have these sensors, but is meant to have each episode have a maximum of 50k steps, with learning occuring every 1k.
 
 **More information about the details of our implemntation can be found in the paper uploaded.**
+
 **A youtube video that contains the demo and a brief presentation can be found on this link:** [https://youtu.be/0sPzjIGnxk8](https://youtu.be/8lsbPWx0NwA)
